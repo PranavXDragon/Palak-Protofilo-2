@@ -12,7 +12,7 @@ Welcome to my personal developer portfolio — a sleek, interactive, and dynamic
 **Title:** Jr. Software Developer  
 **Location:** Bengaluru, India  
 
-I’m a creative developer based in Bengaluru, and I’m very passionate and dedicated to my work. From front-end animations to clean backend logic, I bring digital ideas to life.
+Passionate Engineering Graduate, self-starter, quick learner, and adapt at using technical skills for organizational improvement.
 
 ---
 
