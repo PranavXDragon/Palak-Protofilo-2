@@ -248,35 +248,6 @@ img {
   }
 }
 
-/* Hide default cursor */
-* {
-  cursor: none !important;
-}
-
-/* Ensure smooth animation on all elements */
-body {
-  overflow-x: hidden;
-}
-
-/* Updated cursor mix-blend-mode for better visibility */
-.cursor-main, .cursor-frame, .cursor-accent {
-  mix-blend-mode: exclusion;
-  filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.4));
-}
-
-/* Added media queries to adjust cursor colors for different backgrounds */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cursor-glow: rgba(255, 215, 0, 0.5);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --cursor-glow: rgba(218, 165, 32, 0.6);
-  }
-}
-
 /* For medium devices */
 @media screen and (max-width: 768px) {
   body {
@@ -305,4 +276,32 @@ body {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+
+/* Custom cursor styles */
+body, html {
+  cursor: none; /* Hide the default cursor */
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #e69704;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s ease;
+}
+
+.cursor-ring {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #e69704;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+  transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease;
+  opacity: 0.5;
 }
