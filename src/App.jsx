@@ -11,7 +11,7 @@ import Testimonials from '../components/testimonials/Testimonials';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import ScrollUp from '../components/scrollup/ScrollUp';
-import CustomCursor from '../../Portfolio/src/components/cursor/CustomCursor';
+import CustomCursor from './components/cursor/CustomCursor';
 
 function App() {
   return (
