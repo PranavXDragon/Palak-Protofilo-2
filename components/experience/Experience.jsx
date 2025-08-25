@@ -19,7 +19,7 @@ const Experience = () => {
             <div className="exp__content">
                 <div>
                     <i className="uil uil-web-grid exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer <br /> Trainee </h3>
+                    <h3 className="exp__title">Software <br /> Developer </h3>
                 </div>
 
                 <div>
