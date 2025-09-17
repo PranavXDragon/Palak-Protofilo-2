@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import './Header.css';
-import ThemeToggle from '../ThemeToggle/ThemeToggle';
+import { AnimatedThemeToggler } from '@/components/ui/animated-theme-toggler';
 
 const Header = () => {
 	const [Toggle, showMenu] = useState(false);
@@ -18,7 +18,14 @@ const Header = () => {
 		window.addEventListener('scroll', handleScrollHeader, { passive: true });
 		handleScrollHeader();
 
-		const sectionIds = ['home', 'projects', 'skills', 'experience', 'about', 'contact'];
+		const sectionIds = [
+			'home',
+			'projects',
+			'skills',
+			'experience',
+			'about',
+			'contact',
+		];
 		const sections = sectionIds
 			.map((id) => document.getElementById(id))
 			.filter(Boolean);
@@ -56,7 +63,7 @@ const Header = () => {
 				</a>
 
 				<div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
-					<ul className='nav__list grid'>
+					<ul className='nav__list'>
 						<li className='nav__item'>
 							<a
 								href='#home'
@@ -138,16 +145,16 @@ const Header = () => {
 						</li>
 
 						<li className='nav__item theme-toggle-desktop'>
-							<ThemeToggle />
+							<AnimatedThemeToggler className='theme-toggle-button' />
 						</li>
 					</ul>
 				</div>
 
 				{!Toggle && (
-          <div className='theme-toggle-mobile'>
-            <ThemeToggle />
-          </div>
-        )}
+					<div className='theme-toggle-mobile'>
+						<AnimatedThemeToggler className='theme-toggle-button' />
+					</div>
+				)}
 
 				<div className='nav__toggle' onClick={() => showMenu(!Toggle)}>
 					<i className='uil uil-apps'></i>
