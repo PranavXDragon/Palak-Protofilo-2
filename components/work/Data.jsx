@@ -3,6 +3,7 @@ import Work2 from '../../src/assets/Work2.png';
 import Work3 from '../../src/assets/Work3.png';
 import Work4 from '../../src/assets/Work4.png';
 import Work5 from '../../src/assets/Work5.png';
+import Work6 from '../../src/assets/Work6.png';
 
 export const projectsData = [
 	{
@@ -44,15 +45,15 @@ export const projectsData = [
 	{
 		id: 5,
 		image: Work5,
-		title: 'JIRABoard',
+		title: 'FlowPilot',
 		category: 'web',
-		demoUrl: '#',
+		demoUrl: 'https://flowpilot-beta.vercel.app/',
 		sourceUrl: '#',
-		status: 'development',
+		status: 'completed',
 	},
 	{
 		id: 6,
-		image: Work5,
+		image: Work6,
 		title: 'TNY.io',
 		category: 'web',
 		demoUrl: '#',
