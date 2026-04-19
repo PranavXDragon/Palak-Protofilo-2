@@ -17,9 +17,8 @@ const Contact = () => {
         setError('');
 
         try {
-            // Send to backend (New folder 3) MongoDB
-            const backendUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3005';
-            const response = await fetch(`${backendUrl}/api/contact`, {
+            // Send to portfolio's API which saves to New folder 3's MongoDB Atlas
+            const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
