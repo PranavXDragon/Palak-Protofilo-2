@@ -12,8 +12,8 @@ export async function POST(request) {
       );
     }
 
-    // Connect to MongoDB from New folder 3's backend
-    const mongoUri = 'mongodb+srv://Test:Test@t.7bexn6b.mongodb.net/?appName=T&retryWrites=true&w=majority';
+    // Connect to MongoDB ishaprofile cluster
+    const mongoUri = 'mongodb+srv://Test:Test@ishaprofile.qckelgi.mongodb.net/?appName=ishaprofile';
     if (!mongoUri) {
       console.error('MONGODB_URI not configured');
       return new Response(
