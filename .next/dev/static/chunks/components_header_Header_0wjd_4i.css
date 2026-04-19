@@ -41,6 +41,22 @@
   overflow: visible;
 }
 
+.nav__logo-text {
+  font-size: 1.2rem;
+  font-weight: var(--font-semi-bold);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: all .3s;
+}
+
+.nav__logo:hover .nav__logo-text {
+  filter: brightness(1.2);
+  transform: scale(1.1);
+}
+
 .nav__logo-img {
   -o-object-fit: contain;
   object-fit: contain;

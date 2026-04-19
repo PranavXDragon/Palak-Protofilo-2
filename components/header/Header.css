@@ -41,6 +41,22 @@
 	height: 3rem;
 }
 
+.nav__logo-text {
+	font-size: 1.2rem;
+	font-weight: var(--font-semi-bold);
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.nav__logo:hover .nav__logo-text {
+	transform: scale(1.1);
+	filter: brightness(1.2);
+}
+
 .nav__logo-img {
 	height: 2.5rem;
 	width: auto;

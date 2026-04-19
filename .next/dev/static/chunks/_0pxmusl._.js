@@ -10,7 +10,7 @@ __turbopack_context__.v((parentImport) => {
     ]
   },
   "static/chunks/node_modules_0i.q9k5._.js",
-  "static/chunks/_051n25f._.js",
+  "static/chunks/_03y68vp._.js",
   "static/chunks/components_header_Header_jsx_13zjo7m._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
         return parentImport("[project]/components/header/Header.jsx [app-client] (ecmascript, next/dynamic entry)");
