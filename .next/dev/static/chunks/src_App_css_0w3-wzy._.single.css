@@ -1,0 +1,277 @@
+/* [project]/src/App.css [app-client] (css) */
+:root {
+  --header-height: 3rem;
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+  --tiny-font-size: .625rem;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+  --toggle-bg: #e0e0e0;
+  --toggle-border: #ccc;
+  --toggle-slider-bg-light: #fff;
+  --toggle-slider-bg-dark: #333;
+  --toggle-icon-color: #333;
+  --toggle-bg-hover: #d0d0d0;
+  --toggle-slider-bg-hover: #f0f0f0;
+}
+
+[data-theme="dark"] {
+  --title-color: hsl(var(--hue), var(--sat), 95%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 80%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: hsl(var(--hue), var(--sat), 15%);
+  --toggle-bg: #333;
+  --toggle-border: #555;
+  --toggle-slider-bg-light: #fff;
+  --toggle-slider-bg-dark: #e0e0e0;
+  --toggle-icon-color: #090909;
+  --toggle-bg-hover: #444;
+  --toggle-slider-bg-hover: #f0f0f0;
+}
+
+body, .container, .section {
+  transition: background-color .3s, color .3s;
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, button, input, textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+  background-color: #0000000d;
+  width: 7px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e69704;
+  border-radius: .75rem;
+  transition: all .3s;
+  box-shadow: 0 0 10px #e6970480;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fa0;
+  box-shadow: 0 0 15px #ffaa00b3;
+}
+
+@keyframes scrollbar-glow {
+  0% {
+    box-shadow: 0 0 10px #e6970480;
+  }
+
+  50% {
+    box-shadow: 0 0 15px #e69704cc;
+  }
+
+  100% {
+    box-shadow: 0 0 10px #e6970480;
+  }
+}
+
+.scrolling::-webkit-scrollbar-thumb {
+  animation: 1.5s infinite scrollbar-glow;
+}
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+  display: block;
+}
+
+.section__title, .section__subtitle {
+  text-align: center;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  gap: 1.5rem;
+  display: grid;
+}
+
+.button {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  font-weight: var(--font-medium);
+  border-radius: 1rem;
+  padding: 1.25rem 2rem;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  align-items: center;
+  display: inline-flex;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
+
+body, html {
+  cursor: none;
+}
+
+.cursor-dot {
+  pointer-events: none;
+  z-index: 9999;
+  background-color: #e69704;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transition: transform .1s;
+  position: fixed;
+}
+
+.cursor-ring {
+  pointer-events: none;
+  z-index: 9998;
+  opacity: .5;
+  border: 2px solid #e69704;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform .15s, width .2s, height .2s;
+  position: fixed;
+}
+
+/*# sourceMappingURL=src_App_css_0w3-wzy._.single.css.map*/

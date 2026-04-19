@@ -38,17 +38,17 @@ const Experience = () => {
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
-                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <i className="uil uil-check-circle exp__modal-icon"></i>
                                 <p className="exp__modal-info">HTML, CSS & JavaScript</p>
                             </li>
 
                             <li className="exp__modal-experience">
-                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <i className="uil uil-check-circle exp__modal-icon"></i>
                                 <p className="exp__modal-info">React & Frontend Frameworks</p>
                             </li>
 
                             <li className="exp__modal-experience">
-                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <i className="uil uil-check-circle exp__modal-icon"></i>
                                 <p className="exp__modal-info">Responsive Design & UI/UX</p>
                             </li>
 
@@ -78,17 +78,17 @@ const Experience = () => {
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
-                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <i className="uil uil-check-circle exp__modal-icon"></i>
                                 <p className="exp__modal-info">Python & Data Analysis</p>
                             </li>
 
                             <li className="exp__modal-experience">
-                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <i className="uil uil-check-circle exp__modal-icon"></i>
                                 <p className="exp__modal-info">Statistics & Data Visualization</p>
                             </li>
 
                             <li className="exp__modal-experience">
-                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <i className="uil uil-check-circle exp__modal-icon"></i>
                                 <p className="exp__modal-info">Machine Learning Basics</p>
                             </li>
 

@@ -1,0 +1,112 @@
+/* [project]/components/qualification/qualification.css [app-client] (css) */
+.qualification__container {
+  max-width: 768px;
+}
+
+.qualification__tabs {
+  margin-bottom: var(--mb-2);
+  justify-content: center;
+  display: flex;
+}
+
+.qualification__button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  margin: 0 var(--mb-1);
+  cursor: pointer;
+}
+
+.qualification__button:hover {
+  color: var(--title-color-dark);
+}
+
+.qualification__icon {
+  margin-right: var(--mb-0-25);
+  font-size: 1.8rem;
+}
+
+.qualification__active {
+  color: var(--title-color-dark);
+}
+
+.qualification__sections {
+  grid-template-columns: .5fr;
+  justify-content: center;
+  display: grid;
+}
+
+.qualification__content {
+  display: block;
+}
+
+.qualification__data {
+  -moz-column-gap: 1.5rem;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+  display: grid;
+  overflow: hidden;
+}
+
+.qualification__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qualification__subtitle {
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+  display: inline-block;
+}
+
+.qualification__calender {
+  font-size: var(--small-font-size);
+}
+
+.qualification__round {
+  background-color: var(--title-color);
+  border-radius: 10%;
+  width: 13px;
+  height: 13px;
+  display: inline;
+}
+
+.qualification__line {
+  background-color: var(--title-color);
+  width: 1px;
+  height: 100%;
+  display: block;
+  transform: translate(6px, -7px);
+}
+
+@media screen and (max-width: 992px) {
+  .qualification__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .qualification__container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .qualification__sections {
+    grid-template-columns: initial;
+  }
+
+  .qualification__button {
+    margin: 0 var(--mb-0-75);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .qualification__data {
+    gap: .5rem;
+  }
+}
+
+/*# sourceMappingURL=components_qualification_qualification_0_ovcdx.css.map*/
