@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///P:/New%20folder%20%284%29/Palak-Protofilo-2/components/scrollup/scrollup.css"],"sourcesContent":[".scrollup {\r\n    position: fixed;\r\n    right: 2.5rem;\r\n    bottom: -20%;\r\n    background-color: var(--title-color);\r\n    opacity: 0.8;\r\n    padding: 0.3rem 0.5rem;\r\n    border-radius: 0.4rem;\r\n    z-index: var(--z-tooltip);\r\n    transition: .4s;\r\n}\r\n\r\n.scrollup__icon {\r\n    font-size: 1.5rem;\r\n    color: var(--container-color);\r\n}\r\n\r\n.scrollup__icon:hover {\r\n    background-color: var(--title-color-dark);\r\n}\r\n\r\n.show-scroll {\r\n    bottom: 3rem;\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .scrollup {\r\n        right: 1.5rem;\r\n        padding: 0.25rem 0.4rem;\r\n    }\r\n\r\n    .scrollup__icon {\r\n        font-size: 1.25rem;\r\n    }\r\n  }\r\n\r\n  @media screen and (max-width: 768px) {\r\n    .show-scroll {\r\n        bottom: 4rem;\r\n    }\r\n  }\r\n  \r\n  @media screen and (max-width: 350px) {\r\n    .scrollup {\r\n        right: 1rem;\r\n    }\r\n  }"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAYA;;;;;AAKA;;;;AAIA;;;;AAIA;EACI;;;;;EAKA;;;;;AAKF;EACE;;;;;AAKF;EACE"}}]
-}

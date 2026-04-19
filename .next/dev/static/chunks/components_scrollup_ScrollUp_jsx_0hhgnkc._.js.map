@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///P:/New%20folder%20%284%29/Palak-Protofilo-2/components/scrollup/ScrollUp.jsx"],"sourcesContent":["'use client';\r\n/* eslint-disable no-unused-vars */\r\nimport React from 'react';\r\nimport \"./../scrollup/scrollup.css\";\r\n\r\nconst ScrollUp = () => {\r\n    window.addEventListener(\"scroll\", function () {\r\n        const scrollUp = this.document.querySelector(\".scrollup\");\r\n        if (this.scrollY >= 560) scrollUp.classList.add(\"show-scroll\");\r\n        else scrollUp.classList.remove(\"show-scroll\");\r\n    });\r\n  return (\r\n    <a href=\"#\" className=\"scrollup\">\r\n        <i className=\"uil uil-arrow-up scrollup__icon\"></i>\r\n    </a>\r\n  )\r\n}\r\n\r\nexport default ScrollUp"],"names":["ScrollUp","window","addEventListener","scrollUp","document","querySelector","scrollY","classList","add","remove","href","className"],"mappings":";;;;;AACA,iCAAiC,GACjC;AAFA;;;;AAKA,MAAMA,WAAW;IACbC,OAAOC,gBAAgB,CAAC,UAAU;QAC9B,MAAMC,WAAW,IAAI,CAACC,QAAQ,CAACC,aAAa,CAAC;QAC7C,IAAI,IAAI,CAACC,OAAO,IAAI,KAAKH,SAASI,SAAS,CAACC,GAAG,CAAC;aAC3CL,SAASI,SAAS,CAACE,MAAM,CAAC;IACnC;IACF,qBACE,6LAAC;QAAEC,MAAK;QAAIC,WAAU;kBAClB,cAAA,6LAAC;YAAEA,WAAU;;;;;;;;;;;AAGrB;KAXMX;uCAaSA"}}]
-}
