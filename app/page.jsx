@@ -2,9 +2,6 @@
 
 import dynamic from 'next/dynamic';
 
-// Skip pre-rendering since page uses browser APIs
-export const dynamic = 'force-dynamic';
-
 const Header = dynamic(() => import('../components/header/Header'), { ssr: false });
 const Home = dynamic(() => import('../components/home/Home'), { ssr: false });
 const About = dynamic(() => import('../components/about/About'), { ssr: false });
