@@ -2,7 +2,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./about.css";
-import AboutImg from "../../src/assets/about-pic.jpg";
 import Info from './Info';
 
 const About = () => {
@@ -12,8 +11,6 @@ const About = () => {
         <span className="section__subtitle">My Intoduction</span>
 
         <div className="about__container container grid">
-          <img src={AboutImg} alt="" className="about__img" />
-
           <div className="about__data">
             <Info />
 
