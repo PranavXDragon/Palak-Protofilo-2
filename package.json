@@ -2,12 +2,12 @@
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "preview": "next start"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -17,8 +17,9 @@
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.4.10",
     "lucide-react": "^0.544.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-icons": "^5.4.0",
     "swiper": "^11.1.9",
     "tailwind-merge": "^3.3.1",
