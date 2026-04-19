@@ -34,16 +34,22 @@
   font-weight: var(--font-medium);
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 150px;
-  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  height: 3rem;
+  display: flex;
+  overflow: visible;
 }
 
 .nav__logo-img {
   -o-object-fit: contain;
   object-fit: contain;
+  flex-shrink: 0;
   width: auto;
-  height: 2rem;
+  max-width: 120px;
+  height: 2.5rem;
   transition: transform .3s;
+  display: block;
 }
 
 .nav__logo-img:hover {
