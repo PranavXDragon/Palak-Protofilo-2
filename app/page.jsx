@@ -1,5 +1,8 @@
 'use client';
 
+// Skip pre-rendering since page uses browser APIs
+export const dynamic = 'force-dynamic';
+
 import Header from '../components/header/Header';
 import Home from '../components/home/Home';
 import About from '../components/about/About';
