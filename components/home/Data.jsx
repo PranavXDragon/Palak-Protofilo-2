@@ -5,7 +5,7 @@ const Data = () => {
   const [isAnimating, setIsAnimating] = useState(true);
   
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const originalText = "Palak Urkude";
+  const originalText = "Isha Urkude";
   const [displayText, setDisplayText] = useState(originalText);
 
   useEffect(() => {
