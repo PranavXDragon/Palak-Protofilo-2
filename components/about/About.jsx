@@ -12,7 +12,7 @@ const About = () => {
         <span className="section__subtitle">My Intoduction</span>
 
         <div className="about__container container grid">
-          <img src={ProfilePic} alt="Profile" className="about__img" />
+          <img src={ProfilePic.src} alt="Profile" className="about__img" />
           <div className="about__data">
             <Info />
 
