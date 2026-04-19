@@ -17,8 +17,9 @@ const Contact = () => {
         setError('');
 
         try {
-            // First try to send to MongoDB via API
-            const response = await fetch('/api/contact', {
+            // Send to backend (New folder 3) MongoDB
+            const backendUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3005';
+            const response = await fetch(`${backendUrl}/api/contact`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
