@@ -27,7 +27,7 @@ __turbopack_context__.v((parentImport) => {
       "[project]/components/home/home.css [app-client] (css)"
     ]
   },
-  "static/chunks/components_home_0dpxj99._.js",
+  "static/chunks/_0w3s6w6._.js",
   "static/chunks/components_home_Home_jsx_13zjo7m._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
         return parentImport("[project]/components/home/Home.jsx [app-client] (ecmascript, next/dynamic entry)");

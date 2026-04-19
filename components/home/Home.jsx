@@ -5,6 +5,7 @@ import "./home.css";
 import Social from './Social';
 import Data from './Data';
 import ScrollDown from './ScrollDown';
+import HeroImage from '../../src/assets/hero-image.jpg';
 
 const Home = () => {
   const parallaxRef = useRef(null);
@@ -53,7 +54,7 @@ const Home = () => {
                 <Social />
 
                 <div className="home__img-wrapper">
-                    <div className="home__img"></div>
+                    <img src={HeroImage.src} alt="Hero" className="home__img" />
                     <div className="home__img-glow"></div>
                 </div>
 
