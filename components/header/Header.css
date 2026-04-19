@@ -38,6 +38,17 @@
 	max-width: 150px;
 }
 
+.nav__logo-img {
+	height: 2rem;
+	width: auto;
+	object-fit: contain;
+	transition: transform 0.3s ease;
+}
+
+.nav__logo-img:hover {
+	transform: scale(1.1);
+}
+
 .nav__toggle {
 	font-size: 1.1rem;
 	cursor: pointer;

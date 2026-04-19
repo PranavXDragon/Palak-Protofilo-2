@@ -38,6 +38,18 @@
   overflow: hidden;
 }
 
+.nav__logo-img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: auto;
+  height: 2rem;
+  transition: transform .3s;
+}
+
+.nav__logo-img:hover {
+  transform: scale(1.1);
+}
+
 .nav__toggle {
   cursor: pointer;
   color: var(--title-color);

@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css';
 import { AnimatedThemeToggler } from '@/components/ui/animated-theme-toggler';
+import Logo from '../../Images/logo.png';
 
 const Header = () => {
 	const [Toggle, showMenu] = useState(false);
@@ -60,7 +61,7 @@ const Header = () => {
 		<header className='header'>
 			<nav className='nav container'>
 				<a href='index.html' className='nav__logo'>
-					&lt;Isha Urkude/&gt;
+					<img src={Logo.src} alt="Logo" className='nav__logo-img' />
 				</a>
 
 				<div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
