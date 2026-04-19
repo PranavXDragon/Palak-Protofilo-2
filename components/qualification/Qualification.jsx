@@ -85,8 +85,8 @@ const Qualification = () => {
                 />
               </div>
               <div>
-                <h3 className="qualification__title">Higher Secondary🧪</h3>
-                <span className="qualification__subtitle">CBSE - Bengaluru</span>
+                <h3 className="qualification__title">St Paul Junior College</h3>
+                <span className="qualification__subtitle">Hudkeshwar, Nagpur</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2020
                 </div>
