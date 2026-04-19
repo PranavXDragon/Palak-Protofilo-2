@@ -73,7 +73,7 @@ const WorksItems = ({ item }) => {
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseLeave}
 		>
-			<img src={item.image} alt='' className='work__img' />
+			<img src={item.image.src} alt='' className='work__img' />
 			<h3 className='work__title'>{item.title}</h3>
 			
 			{!isMobile && showPreview && item.status === 'completed' && item.demoUrl && item.demoUrl !== '#' && (
