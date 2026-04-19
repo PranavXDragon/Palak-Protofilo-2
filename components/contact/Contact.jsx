@@ -1,3 +1,4 @@
+'use client';
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';

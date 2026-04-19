@@ -1,3 +1,4 @@
+'use client';
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useRef, useState } from 'react'
 import "./home.css";
