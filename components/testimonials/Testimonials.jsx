@@ -92,8 +92,8 @@ const Testimonials = () => {
                   transition={{ duration: 0.5, delay: 0.3 }}
                 >
                   <img 
-                    src={Data[currentIndex].image} 
-                    alt="" 
+                    src={Data[currentIndex].image.src} 
+                    alt={Data[currentIndex].title}
                     className="testimonial__img" 
                   />
                 </motion.div>
