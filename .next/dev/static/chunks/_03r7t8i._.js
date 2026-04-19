@@ -195,7 +195,7 @@ const Testimonials = ()=>{
                 transition: {
                     duration: 0.5
                 },
-                children: "What People Say"
+                children: "What People Say 💬"
             }, void 0, false, {
                 fileName: "[project]/components/testimonials/Testimonials.jsx",
                 lineNumber: 52,
