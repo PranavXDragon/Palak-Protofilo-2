@@ -8,7 +8,7 @@ export const Data = [
       image: Image1,
       title: "Ritu Sharma",
       description:
-        "Palak is curious and always eager to learn new things. She actively works on improving her skills and brings creative ideas to her projects.",
+        "Isha is curious and always eager to learn new things. She actively works on improving her skills and brings creative ideas to her projects.",
     },
     {
       id: 2,
@@ -22,6 +22,6 @@ export const Data = [
       image: Image3,
       title: "Prof. Sharma",
       description:
-        "Palak demonstrates strong problem-solving abilities and shows genuine interest in learning. She takes initiative on projects and collaborates well with peers.",
+        "Isha demonstrates strong problem-solving abilities and shows genuine interest in learning. She takes initiative on projects and collaborates well with peers.",
     },
   ];
