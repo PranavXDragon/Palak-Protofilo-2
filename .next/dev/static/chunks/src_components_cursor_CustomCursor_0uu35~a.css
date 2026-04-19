@@ -1,0 +1,42 @@
+/* [project]/src/components/cursor/CustomCursor.css [app-client] (css) */
+.cursor-dot {
+  pointer-events: none;
+  z-index: 9999;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  background: linear-gradient(45deg, #e69704, #ffb700);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  animation: 2s infinite pulse;
+  position: fixed;
+  transform: translate3d(0, 0, 0);
+  box-shadow: 0 0 10px #e6970499, 0 0 20px #e6970466, 0 0 30px #e6970433;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px #e6970499, 0 0 20px #e6970466, 0 0 30px #e6970433;
+  }
+
+  50% {
+    box-shadow: 0 0 15px #e69704b3, 0 0 25px #e6970480, 0 0 35px #e697044d;
+  }
+
+  100% {
+    box-shadow: 0 0 10px #e6970499, 0 0 20px #e6970466, 0 0 30px #e6970433;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor-dot {
+    display: none;
+  }
+
+  body, html {
+    cursor: auto;
+  }
+}
+
+/*# sourceMappingURL=src_components_cursor_CustomCursor_0uu35~a.css.map*/
