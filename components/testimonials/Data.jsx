@@ -6,22 +6,22 @@ export const Data = [
     {
       id: 1,
       image: Image1,
-      title: "Rupam Chakraborty",
+      title: "Ritu Sharma",
       description:
-        "Soumyajit has quickly proven his React expertise since joining our team. His coding skills have already made a significant impact. A valuable asset and a proactive team player, Soumyajit is a great addition to any team.",
+        "Palak is curious and always eager to learn new things. She actively works on improving her skills and brings creative ideas to her projects.",
     },
     {
       id: 2,
       image: Image2,
-      title: "Venkata Narasimha Reddy Jekkireddy",
+      title: "Venkata Reddy",
       description:
-        "He is hardworking and capable of learning things quickly.",
+        "She is hardworking and quick to learn, consistently improving her technical skills through practice and projects.",
     },
     {
       id: 3,
       image: Image3,
-      title: "Ritu Sharma",
+      title: "Prof. Sharma",
       description:
-        "Soumyajit is working with Formulate AI as an intern. I always find him curious about new things and always coming back with ideas to improve products and services. He is also working on growing the Learn Program and in the process, he started his AI Journey. All the best for your upcoming formulations, Soumyajit will be a great asset to any organization.",
+        "Palak demonstrates strong problem-solving abilities and shows genuine interest in learning. She takes initiative on projects and collaborates well with peers.",
     },
   ];

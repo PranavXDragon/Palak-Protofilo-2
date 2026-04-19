@@ -49,9 +49,9 @@ const Qualification = () => {
             <motion.div className="qualification__data" variants={dataVariants}>
               <div>
                 <h3 className="qualification__title">Bachelor of Technology🎓</h3>
-                <span className="qualification__subtitle">REVA University - Bengaluru</span>
+                <span className="qualification__subtitle">Suryodaya College of Engineering & Technology</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2024
+                  <i className="uil uil-calendar-alt"></i> 2024 - 2028
                 </div>
               </div>
 

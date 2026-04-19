@@ -5,24 +5,24 @@ const Info = () => {
 	return (
 		<div className='about__info grid'>
 			<div className='about__box'>
-				<i className='bx bx-award about__icon'></i>
+				<i className='bx bxs-graduation about__icon'></i>
 
-				<h3 className='about__title'>Experience</h3>
-				<span className='about__subtitle'>1 Year Working</span>
+				<h3 className='about__title'>Learning Journey</h3>
+				<span className='about__subtitle'>B.Tech Student</span>
 			</div>
 
 			<div className='about__box'>
-				<i className='bx bx-briefcase-alt about__icon'></i>
+				<i className='bx bxs-folder-open about__icon'></i>
 
-				<h3 className='about__title'>Completed</h3>
-				<span className='about__subtitle'>50 + Tasks</span>
+				<h3 className='about__title'>Projects Built</h3>
+				<span className='about__subtitle'>4+ Projects</span>
 			</div>
 
 			<div className='about__box'>
-				<i className='bx bx-support about__icon'></i>
+				<i className='bx bxs-rocket about__icon'></i>
 
-				<h3 className='about__title'>Support</h3>
-				<span className='about__subtitle'>Online 24/7</span>
+				<h3 className='about__title'>Growth Mindset</h3>
+				<span className='about__subtitle'>Always Learning</span>
 			</div>
 		</div>
 	);

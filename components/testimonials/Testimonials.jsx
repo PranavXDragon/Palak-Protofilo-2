@@ -54,7 +54,7 @@ const Testimonials = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        My Colleagues Say
+        What People Say
       </motion.h2>
       
       <motion.span 

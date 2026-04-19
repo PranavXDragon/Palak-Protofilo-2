@@ -5,7 +5,7 @@ const Data = () => {
   const [isAnimating, setIsAnimating] = useState(true);
   
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const originalText = "Soumyajit Basak";
+  const originalText = "Palak Urkude";
   const [displayText, setDisplayText] = useState(originalText);
 
   useEffect(() => {
@@ -109,10 +109,10 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Software Developer</h3>
-      <p className="home__description">I'm a creative developer based in Bengaluru, and I'm very passionate and dedicated to my work.</p>
+      <h3 className="home__subtitle">Frontend Developer & Data Science Student</h3>
+      <p className="home__description">I build responsive web applications and explore data-driven solutions through real-world projects.</p>
 
-      <a href="https://cal.com/soumyajit-basak" className="button button--flex">
+      <a href="#" className="button button--flex">
         Say Hello
         <svg
           className="button__icon"

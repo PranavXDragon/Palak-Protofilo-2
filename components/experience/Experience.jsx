@@ -12,18 +12,18 @@ const Experience = () => {
 
   return (
     <div className="section experience section" id="experience">
-        <h2 className="section__title">Experience 💼</h2>
-        <span className="section__subtitle">What I work as</span>
+        <h2 className="section__title">Learning Journey 📚</h2>
+        <span className="section__subtitle">My Growth & Skills</span>
 
         <div className="exp__container container grid">
             <div className="exp__content">
                 <div>
-                    <i className="uil uil-web-grid exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer </h3>
+                    <i className="uil uil-code exp__icon"></i>
+                    <h3 className="exp__title">Web <br /> Development </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">Currently Learning</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -32,25 +32,23 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Trainee <br /> Jun'24 - Currently Working🧑🏻‍💻</h3>
-                        <p className="exp__modal-description">Working currently as a Software Developer Trainee for full-time at EXA AG.
-                            Providing quality work to clients and company.
-                        </p>
+                        <h3 className="exp__modal-title">Web Development Skills 💻</h3>
+                        <p className="exp__modal-description">Building modern web applications with responsive design and user-friendly interfaces.</p>
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Web Page Development.</p>
+                                <p className="exp__modal-info">HTML, CSS & JavaScript</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I create UI Interfaces.</p>
+                                <p className="exp__modal-info">React & Frontend Frameworks</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I create UX Element Interactions.</p>
+                                <p className="exp__modal-info">Responsive Design & UI/UX</p>
                             </li>
 
                         </ul>
@@ -60,12 +58,12 @@ const Experience = () => {
 
             <div className="exp__content">
                 <div>
-                    <i className="uil uil-arrow exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer <br/> Intern</h3>
+                    <i className="uil uil-database exp__icon"></i>
+                    <h3 className="exp__title">Data Science <br /> Fundamentals</h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">In Progress</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -74,25 +72,23 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Intern <br /> Feb'24 - May'24</h3>
-                        <p className="exp__modal-description">Worked at EXA AG as Intern for 5 months.
-                            Providing quality work to clients and company.
-                        </p>
+                        <h3 className="exp__modal-title">Data Science & Analysis 📊</h3>
+                        <p className="exp__modal-description">Exploring data-driven solutions and learning fundamentals of data science.</p>
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I developed the User Interfaces.</p>
+                                <p className="exp__modal-info">Python & Data Analysis</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Web Page Development.</p>
+                                <p className="exp__modal-info">Statistics & Data Visualization</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Part of the OTP (Operational Transfer Pricing) Team.</p>
+                                <p className="exp__modal-info">Machine Learning Basics</p>
                             </li>
 
                         </ul>
