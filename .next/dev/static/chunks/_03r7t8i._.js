@@ -89,7 +89,7 @@ const Data = [
         id: 1,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$Testimonial3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$Testimonial3$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
         title: "Ritu Sharma",
-        description: "Palak is curious and always eager to learn new things. She actively works on improving her skills and brings creative ideas to her projects."
+        description: "Isha is curious and always eager to learn new things. She actively works on improving her skills and brings creative ideas to her projects."
     },
     {
         id: 2,
@@ -101,7 +101,7 @@ const Data = [
         id: 3,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$Testimonial2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$Testimonial2$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
         title: "Prof. Sharma",
-        description: "Palak demonstrates strong problem-solving abilities and shows genuine interest in learning. She takes initiative on projects and collaborates well with peers."
+        description: "Isha demonstrates strong problem-solving abilities and shows genuine interest in learning. She takes initiative on projects and collaborates well with peers."
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -266,8 +266,8 @@ const Testimonials = ()=>{
                                                 delay: 0.3
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$testimonials$2f$Data$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Data"][currentIndex].image,
-                                                alt: "",
+                                                src: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$testimonials$2f$Data$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Data"][currentIndex].image.src,
+                                                alt: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$testimonials$2f$Data$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Data"][currentIndex].title,
                                                 className: "testimonial__img"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/testimonials/Testimonials.jsx",

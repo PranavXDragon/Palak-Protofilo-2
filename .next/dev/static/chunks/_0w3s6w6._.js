@@ -19,7 +19,6 @@ const Social = ()=>{
                 href: "https://www.instagram.com",
                 className: "home__social-icon",
                 target: "_blank",
-                rel: "noopener noreferrer",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                     className: "uil uil-instagram"
                 }, void 0, false, {
@@ -36,7 +35,6 @@ const Social = ()=>{
                 href: "https://www.linkedin.com/in/isha-urkude",
                 className: "home__social-icon",
                 target: "_blank",
-                rel: "noopener noreferrer",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                     className: "uil uil-linkedin"
                 }, void 0, false, {
@@ -53,7 +51,6 @@ const Social = ()=>{
                 href: "https://github.com",
                 className: "home__social-icon",
                 target: "_blank",
-                rel: "noopener noreferrer",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                     className: "uil uil-github-alt"
                 }, void 0, false, {

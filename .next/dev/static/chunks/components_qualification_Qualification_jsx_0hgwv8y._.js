@@ -231,7 +231,7 @@ const Qualification = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "qualification__title",
-                                                    children: "Higher Secondary🧪"
+                                                    children: "St Paul Junior College"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/qualification/Qualification.jsx",
                                                     lineNumber: 88,
@@ -239,7 +239,7 @@ const Qualification = ()=>{
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "qualification__subtitle",
-                                                    children: "CBSE - Bengaluru"
+                                                    children: "Hudkeshwar, Nagpur"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/qualification/Qualification.jsx",
                                                     lineNumber: 89,
