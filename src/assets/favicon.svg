@@ -2,6 +2,21 @@
   <!-- Background circle -->
   <circle cx="128" cy="128" r="128" fill="#ff5757"/>
   
-  <!-- Letter P -->
-  <text x="128" y="160" font-size="120" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">P</text>
+  <!-- Graduation Cap -->
+  <g transform="translate(128, 128)">
+    <!-- Cap top (mortarboard) -->
+    <path d="M -50 -20 L 0 -40 L 50 -20 Z" fill="white"/>
+    
+    <!-- Cap bottom edge -->
+    <rect x="-50" y="-22" width="100" height="4" fill="white"/>
+    
+    <!-- Tassel line -->
+    <line x1="0" y1="-40" x2="0" y2="10" stroke="white" stroke-width="3"/>
+    
+    <!-- Tassel ball -->
+    <circle cx="0" cy="15" r="8" fill="white"/>
+    
+    <!-- Cap front -->
+    <rect x="-45" y="-18" width="90" height="20" rx="3" fill="white" opacity="0.9"/>
+  </g>
 </svg>
