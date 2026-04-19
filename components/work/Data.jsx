@@ -41,7 +41,6 @@ export const projectsData = [
 		status: 'completed',
 	},
 ];
-];
 
 export const projectsNav = [
 	{
